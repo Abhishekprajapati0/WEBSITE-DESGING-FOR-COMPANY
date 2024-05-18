@@ -1,0 +1,1471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,body{
+   margin: 0%;
+   padding: 0%;
+   font-family: "Poppins", sans-serif;
+}
+.start{
+   width: 100%;
+   height: auto;
+   padding: 2px;
+   border-radius: 3px;
+   border: black solid 1px;
+   
+}
+.str-img{
+  
+height: auto;
+
+}
+.str-icon{
+   width: 100%;
+   height: auto;
+   
+}
+/*------------------------*/
+
+.rud-img{
+   width: 180px;
+   height: 180px;
+   margin: auto;
+   border-radius: 100px;
+
+}
+.rud-img>img{
+   width: 180px;
+   height: 180px;
+   border-radius: 100px;
+
+}
+.dow-img{
+   width: 100%;
+   margin: auto;
+}
+.dow-img>img{
+   height: 35px;
+}
+.mainsart{
+   margin: auto;
+}
+
+.head-logo {
+   margin-left: 80%;
+} 
+.navbar{
+   padding-top: 0%;
+   padding-bottom: 0%;
+   margin-bottom: 0%;
+}
+.head-logo >span{
+   margin-left: 20px;
+  color: yellow;
+   border-bottom: 2px yellow solid;
+   cursor: pointer;
+}
+
+
+html,body{
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100% !important;
+   margin: 0% !important;
+   padding: 0% !important;
+    overflow-x: hidden;
+
+   box-sizing: border-box !important;
+   
+}
+.dropdown:hover>.dropdown-menu{
+   display: block;
+
+  
+}
+.five{
+   background: rgb(124, 180, 199);
+}
+
+
+
+.dropdown > .dropdown-menu:hover{
+   display: inline-block;
+}
+
+.nav-item{
+   padding: 10px;
+   font-weight: 500;
+}
+.nav-item:hover{
+   border-bottom: 3px blue solid;
+ 
+ 
+  
+}
+.nav-item:hover>a{
+color: orange;
+}
+.form>input{
+   width: 300px;
+   margin-bottom: 20px;
+   
+}
+
+.first{
+   margin-top: 30px;
+   background:rgb(225, 235, 235);
+  
+}
+.first-para>h2{
+   font-size: 50px;
+   color:blue;
+   font-weight:900;
+}
+.first-para>h4{
+   letter-spacing:2px;
+   font-size: 30px;
+}
+.sec-para{
+   margin-top: 40px;
+   padding: 10px;
+   margin-left: 10px;
+}
+.button>button{
+   padding: 15px;
+   border: none;
+   border-radius: 10px;
+   color: white;
+   font-weight: bold;
+  background:rgb(3, 46, 46);
+}
+.button>button:hover{
+   background-color: rgb(60, 60, 116);
+   transition: all 1s;
+}
+.heading>h1{
+   font-size: 50px;
+   color: brown;
+   font-weight:800;
+}
+.views>button{
+   padding: 15px;
+   width: 200px;
+   border: none;
+   margin-bottom: 10px;
+   border-radius: 10px;
+   color: white;
+   font-weight: bold;
+  background: rgb(7, 7, 102);
+}
+.views>button:hover{
+   background-color:yellow;
+   transition: all 1s;
+}
+.stiment>span{
+  color: yellow;
+
+  padding: 20px;
+  border-bottom: 2px yellow solid;
+  padding: 10px;
+  cursor: pointer;
+
+}
+.stiment>span:hover{
+  transition: all 1s;
+  border-color:blue;
+}
+.third{
+   background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20231027/pngtree-hexagonal-abstract-background-with-a-black-textured-surface-image_13704307.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.main-card{
+   width: 220px;
+   border-radius: 10px;
+   height: 250px;
+   text-align: center;
+   padding:20px;
+   background:rgb(172, 202, 212);
+   margin-left: 10px;
+   
+}
+.head-logo>span:hover{
+  color: yellow;
+  transition: 1s all;
+  border-bottom: white;
+}
+.image-card{
+   width: 110px;
+   height: 110px;
+   margin: auto;
+   margin-top: 10px;
+   text-align: center;
+   border-radius: 100px;
+ 
+}
+.image-card>img{
+   width: 110px;
+   height: 110px;
+   margin-bottom: 10px;
+   border-radius: 100px;
+}
+.bottom-img{
+   width: 100%;
+   text-align: center;
+   height: 30px;
+   margin-top: 20px;
+}
+.bottom-img>img{
+   width: 100%;
+   height: 30px;
+}
+.lomet>span>h1{
+   font-size: 60px;
+   color:blue;
+   font-weight:800;
+}
+.second{
+   line-height: 10px;
+}
+.ddp{
+   background:rgb(225, 235, 235);
+}
+
+
+.lona{
+   border-bottom: 2px black solid;
+}
+.cirl{
+   width: 200px;
+   height: 200px;
+   border-radius: 100px;
+   
+   margin: auto;
+}
+.cirl>img{
+   width: 200px;
+   height: 200px;
+   border-radius: 100px;
+}
+.dicode{
+   width: 100%;
+   height: auto;
+   padding: 10px;
+   border-radius: 10px;
+   border: 1px black solid;
+   margin: auto;
+}
+.eight{
+   background: rgb(188, 181, 194);
+}
+.form-bg{
+   background:rgb(191, 191, 199);
+   border-radius: 20px;
+}
+.form-button>button
+{
+   padding: 10px;
+   width: 200px;
+   border: none;
+   margin-bottom: 10px;
+   border-radius: 10px;
+   color: white;
+   font-weight: bold;
+   background:rgb(17, 17, 151);
+   
+}
+.ten{
+   background: black;
+}
+.span>span:hover{
+   color: orange;
+   transition: all 1s;
+   margin-bottom: 20px;
+   cursor: pointer;
+}
+.span>span{
+   border-bottom: 2px white solid;
+   padding: 3px;
+   margin: 2px;
+  
+}
+.ctmt>p:hover{
+   color:yellow;
+   transition: all 1s; 
+   cursor: pointer;
+}
+.icon>span>i:hover{
+   color: orange;
+   transition: all 1s; 
+   cursor: pointer;
+}
+.about{
+   background:rgb(218, 228, 228);
+}
+.para>h4{
+  
+   color:yellow;
+   padding: 6px;
+   margin:10px;
+   border-bottom: 2px black solid;
+   font-weight:bold; 
+}
+.para>p{
+   padding: 10px;
+   
+}
+.last-form >h4{
+   color: white;
+   font-weight: bold;
+   letter-spacing: 5px;
+
+}
+.last-form>input{
+   width: 70%;
+   padding: 10px;
+   border-radius: 10px;
+}
+.last-form>button{
+   padding:10px;
+   border: none;
+   font-weight:bold;
+   color: white;
+   background:red;
+   border-radius: 10px;
+}
+
+.img{
+   width: 50%;
+   height: 300px;
+   border: 2px red solid;
+}
+.para{
+   width: 50%;
+   height: 300px;
+  
+}
+.list-unstyled>li>a{
+   padding: 15px;
+   border-radius: 5px;
+   
+}
+
+
+  .list-unstyled{
+   font-size: 15px;
+  }
+
+.list-unstyle>li{
+   list-style: none;
+   border-bottom: 2px white solid;
+}
+.list-unstyle>li:hover{
+   padding-top:10px;
+   transition: 1s all;
+}
+.done{
+   margin-left: 20px;
+   border-radius: 10px;
+
+}
+.zen>p>i{
+  color: yellow;
+}
+
+.done>h3{
+   font-weight: 600;
+   border-bottom: 2px yellow solid;
+}
+.last-para{
+   border-bottom: 2px yellow solid;
+   letter-spacing: 5px;
+}
+
+
+.sectionClass {
+  padding: 50px 0px;
+  position: relative;
+  display: block;
+}
+
+.fullWidth {
+  width: 100% !important;
+  display: table;
+  float: none;
+  padding: 0;
+  min-height: 1px;
+  height: 100%;
+  position: relative;
+}
+
+
+.sectiontitle {
+  background-position: center;
+  margin: 30px 0 0px;
+  text-align: center;
+  min-height: 20px;
+}
+
+.sectiontitle h2 {
+  font-size: 30px;
+  color: #222;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+.headerLine {
+  width: 160px;
+  height: 2px;
+  display: inline-block;
+  background: #101F2E;
+}
+
+
+.projectFactsWrap{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background:black;
+}
+
+
+#projectFacts .fullWidth{
+  padding: 0;
+}
+
+.projectFactsWrap .item{
+  width: 25%;
+  height: 100%;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.projectFactsWrap .item p.number{
+  font-size: 40px;
+  padding: 0;
+  font-weight: bold;
+}
+
+.projectFactsWrap .item p{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  margin: 0;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+.projectFactsWrap .item span{
+  width: 60px;
+  background: rgba(255, 255, 255, 0.8);
+  height: 2px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.projectFactsWrap .item i{
+  vertical-align: middle;
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+
+.projectFactsWrap .item:hover i, .projectFactsWrap .item:hover p{
+  color: white;
+}
+
+.projectFactsWrap .item:hover span{
+  background: white;
+}
+@media (max-width:576px){
+   .mainsart{
+       display: none;
+   }
+   .projectFactsWrap .item {
+     flex: 0 0 50%;
+  }
+   .five-one{
+     border-radius: 10px;
+   }
+  .heading>h1{
+   font-size: 25px;
+  }
+  .first-para>h2{
+   font-size: 30px;
+  }
+  .first-para>h4{
+   letter-spacing: 0px;
+   font-size: 20px;
+  }
+  .button>button{
+   padding: 10px;
+   
+  }
+  .views>button{
+   padding: 8px;
+   width: 150px;
+  }
+  .navbar-brand>img{
+   margin-left: 10px;
+ width: 50px;
+  }
+  .navbar-toggler-icon{
+   font-size: 15px;
+   padding: 5px;
+  }
+  .lomet>span>h1{
+   font-size: 30px;
+  }
+  .done{
+     border-radius: 0px;
+     border: none;
+  }.done>p{
+     text-align: justify;
+  }
+  .four-met>img{
+     width: 190px;
+     margin-bottom: 20px;
+   
+  }
+  .lomet>h2{
+     font-size: 15px;
+  }.last-de>p{
+     text-align: justify;
+  }
+  .overflow-hidden>p{
+     text-align: justify;
+     
+  }
+  .navbar-light .navbar-toggler{
+     margin-right: 10px;
+  }
+  
+
+}
+@media(max-width:768px){
+  .mainsart{
+     display: none;
+  }
+  .projectFactsWrap .item {
+     flex: 0 0 50%;
+  }
+}
+
+    </style>
+</head>
+<body>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+   
+    <title>New site</title>
+</head>
+<body>   
+ <header class="fixed-top ">
+  <div class="container-fluid  mainsart">
+    <div class="row bg-dark">
+      <div class="col-6 text-white mt-3 d-flex justify-content-around zen ">
+       <p class="ms-2 "><i class="fa fa-phone  me-2 fs-5 mt-1"></i>2386 5575, 212 386 5576</p>
+       <p><i class="fa fa-location me-2 fs-5 mt-1"></i> Corporate  office  in Mumbai , Maharashtra</p>
+      </div>
+      
+      <div class="col-6 text-white ">
+      <div class="head-logo me-auto p-2 mb-2 ">
+     <span class="ms-2"><i class="fa fa-instagram fs-5 mt-3"></i></span>
+     <span class="ms-2"><i class="fa fa-twitter fs-5"></i></span>
+     <span class="ms-2"><i class="fa fa-telegram fs-5"></i></span>
+        </div>
+      </div>
+    </div>
+  </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 p-0 m-0">
+        <div class="container p-0 ">
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/banner2.jpg" width="90px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-0 p-0 mb-lg-0 text-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active " href="#">Portfolio</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Programs
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active " href="#">Partner</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active " href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active " href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active " href="#">FAQ's</a>
+              </li>
+            </ul>
+            <div class="spn-nav d-flex gap-3 text-center">
+                <p class="fs-1 pt-2 text-primary "><i class="fa fa-mobile"></i></p>
+                <p class="fw-bold mt-4 lona">2386 5575, 212 386 5576</p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    
+</header>
+<!-- 1 -->
+<section>
+<div id="carouselExampleCaptions" class="carousel slide w-100 mt-5" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/co3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/co.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+       
+       
+      </div>
+    </div>
+    <div class="carousel-item ">
+      <img src="assets/img/co2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+       
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+
+<!-- first -->
+<section class="first p-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="first-para text-center">
+         <h2><span class="text-warning">S</span>eed <span class="text-warning ">F</span>und</h2>
+         <h4>by founders, for founders</h4>
+         <p>Backed by a community of successful founders & strategic angels, we help raise seed funding of $100K-$150K to early-stage founders.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- second -->
+
+<section class="bg-100 mt-3 p-3">
+  <div class="container">
+    <div class="text-center mb-6">
+    </div>
+    <div class="row g-0 position-relative mb-4 mb-lg-0 h-auto ">
+      <div class="col-lg-6 py-3 py-lg-0 mb-0 position-relative">
+        <div class="bg-holder rounded-ts-lg rounded-te-lg rounded-lg-te-0  ">
+          <img src="assets/img/f3.jpg" class="img-fluid  ">
+        </div>
+        <!--/.bg-holder-->
+      </div>
+      <div class="col-lg-6 px-lg-5 py-lg-6 p-4 my-lg-0  rounded-bs-lg rounded-lg-bs-0 rounded-be-lg rounded-lg-be-0 rounded-lg-te-lg">
+        <div class="d-flex align-items-center h-auto ">
+          <div data-zanim-timeline="{}" data-zanim-trigger="scroll">
+            <div class="overflow-hidden">
+              <h5 data-zanim-xs='{"delay":0}'>Business Consulting</h5>
+            </div>
+            <div class="overflow-hidden">
+              <p class="mt-3" data-zanim-xs='{"delay":0.1}'>As one of the world’s largest accountancy networks, elixir helps a diverse range of clients with a diverse range of needs.This is especially true of our Advisory Practice, which provides corporate finance and transaction services, business restructuring.</p>
+            </div>
+            <div class="overflow-hidden">
+              <div data-zanim-xs='{"delay":0.2}'><a class="d-flex align-items-center" href="#">Learn More<div class="overflow-hidden ms-2"><span class="d-inline-block" data-zanim-xs='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.8}'>&xrarr;</span></div></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row g-0 position-relative mb-4 mb-lg-0">
+      <div class="col-lg-6 py-3 py-lg-0 mb-0 position-relative order-lg-2">
+        <div class="bg-holder rounded-ts-lg rounded-te-lg rounded-lg-te-0  rounded-lg-ts-0" >
+          <img src="assets/img/f2.jpg" class="img-fluid  ">
+        </div>
+        <!--/.bg-holder-->
+      </div>
+      <div class="col-lg-6 px-lg-5 py-lg-6 p-4 my-lg-0 rounded-bs-lg rounded-lg-bs-0 rounded-be-lg  rounded-lg-be-0">
+        <div class="elixir-caret d-none d-lg-block"></div>
+        <div class="d-flex align-items-center">
+          <div data-zanim-timeline="{}" data-zanim-trigger="scroll">
+            <div class="overflow-hidden">
+              <h5 data-zanim-xs='{"delay":0}'>Tax consulting</h5>
+            </div>
+            <div class="overflow-hidden">
+              <p class="mt-3" data-zanim-xs='{"delay":0.1}'>Elixir serves clients across the country and around the world as they navigate an increasingly complex tax landscape. Our tax professionals draw on deep experience and industry-specific knowledge to deliver clients the insights and innovation they need.</p>
+            </div>
+            <div class="overflow-hidden">
+              <div data-zanim-xs='{"delay":0.2}'><a class="d-flex align-items-center" href="#">Learn More<div class="overflow-hidden ms-2"><span class="d-inline-block" data-zanim-xs='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.8}'>&xrarr;</span></div></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row g-0 position-relative  mb-lg-0">
+      <div class="col-lg-6 py-3 py-lg-0 mb-0 position-relative">
+        <div class="bg-holder rounded-ts-lg rounded-te-lg rounded-lg-te-0 rounded-lg-ts-0 rounded-bs-0 rounded-lg-bs-lg ">
+          <img src="assets/img/f1.jpg" class="img-fluid ">
+        </div>
+        <!--/.bg-holder-->
+      </div>
+      <div class="col-lg-6 px-lg-5 py-lg-6 p-4 my-lg-0 rounded-bs-lg rounded-lg-bs-0 rounded-be-lg  ">
+        <div class="elixir-caret d-none d-lg-block"></div>
+        <div class="d-flex align-items-center ">
+          <div data-zanim-timeline="{}" data-zanim-trigger="scroll">
+            <div class="overflow-hidden">
+              <h5 data-zanim-xs='{"delay":0}' class="ms-2">Advisory</h5>
+            </div>
+            <div class="overflow-hidden">
+              <p class="mt-2 p-2 me-5" data-zanim-xs='{"delay":0.1}'>To help you understand what this road looks like, we surveyed 1165 digital marketers across Europe and North America to explore current trends and priorities in digital marketing.</p>
+            </div>
+            <div class="overflow-hidden">
+              <div data-zanim-xs='{"delay":0.2}'><a class="d-flex align-items-center ms-2" href="#">Learn More<div class="overflow-hidden"><span class="d-inline-block" data-zanim-xs='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.8}'>&xrarr;</span></div></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- end of .container-->
+</section>
+
+<!-- buttom --> 
+
+<section class=" mt-5 p-3 w-100">
+  <div class="container ">
+      <div class="row">
+          <div class="col-12 text-center">
+              <div class="button">
+                  <button class="shadow ">JOING NOW COMMUNITY</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<!-- hrading -->
+<section>
+<div class="container mt-5 p-2">
+  <div class="row">
+      <div class="col-12">
+          <div class="heading text-center ">
+              <h1 class="p-2 animate__heartBeat"><span  class="text-warning ">O</span>ur <span class="text-warning ">P</span>ortfo<span class="text-warning">l</span>io</h1>
+            
+          </div>
+      </div>
+  </div>
+  </div>
+</section>
+<!--  ---->
+
+<section class="mt-3 p-3">
+  <div class="owl-carousel owl-theme">
+    <div class="item">
+      <div class="start">
+        <div class="str-img">
+          <img src="assets/img/owl3.jpg" alt="" class="img-fluid  img-thumbnail "/>
+        </div>
+        <p class="card-text p-1 ">India's leading B2B Delivery and shared mobility app.</p>
+        <div class="str-icon d-flex justify-content-between p-1 ">
+          <span class="fw-bold fs-4">Humus</span>
+          <span class="mb-3"><i class="fa fa-digg fs-2 text-danger "></i></span> 
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="start">
+        <div class="str-img">
+          <img src="assets/img/owl2.jpg" alt="" class="img-fluid  img-thumbnail "/>
+        </div>
+        <p  class="card-text p-1">Eco-friendly and low-waste female hygiene products.</p>
+        <div class="str-icon d-flex justify-content-between p-1 ">
+          <span class="fw-bold fs-4">Cusmat</span>
+          <span class="mb-3"><i class="fa fa-imdb fs-2 text-danger "></i></span>
+        </div>
+      
+    </div>
+    </div>
+    <div class="item">
+      <div class="start">
+        <div class="str-img">
+          <img src="assets/img/owl.jpg" alt="" class="img-fluid  img-thumbnail "/>
+        </div>
+        <p class="card-text p-1 ">SIndia s Free HR Payroll Software  experience for .</p>
+        <div class="str-icon d-flex justify-content-between p-1 ">
+          <span class="fw-bold fs-4">EsportsXO</span>
+          <span class="mb-3"><i class="	fa fa-optin-monster fs-2 text-danger "></i></span>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="start">
+        <div class="str-img">
+          <img src="assets/img/owl2.jpg" alt="" class="img-fluid  img-thumbnail "/>
+        </div>
+        <p class="card-text p-1 ">India's leading B2B Delivery and shared mobility app.</p>
+        <div class="str-icon d-flex justify-content-between p-1 ">
+          <span class="fw-bold fs-4">Zypp</span>
+          <span class="mb-3"><i class="fa fa-cc-discover fs-2 text-danger "></i></span>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="start">
+        <div class="str-img">
+          <img src="assets/img/owl3.jpg" alt="" class="img-fluid  img-thumbnail "/>
+        </div>
+        <p class="card-text p-1">AR/VR, LearnCloud-based Management system.</p>
+        <div class="str-icon d-flex justify-content-between p-1  ">
+          <span class="fw-bold fs-4">Kredily</span>
+          <span class="mb-3"><i class="fa fa-cc-amex fs-2 text-danger "></i></span>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="start">
+        <div class="str-img">
+          <img src="assets/img/owl.jpg" alt="" class="img-fluid  img-thumbnail "/>
+        </div>
+        <p  class="card-text p-1 ">Eco-friendly and low-waste female hygiene products.</p>
+        <div class="str-icon d-flex justify-content-between p-1  ">
+          <span class="fw-bold fs-4">Micro.ai</span>
+          <span class="mb-3"><i class="fa fa-cc-visa fs-2 text-danger"></i></span>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="start">
+        <div class="str-img">
+          <img src="assets/img/owl3.jpg" alt="" class="img-fluid  img-thumbnail "/>
+        </div>
+        <p class="card-text p-1 ">Providing digital solutions to companies with smart.</p>
+        <div class="str-icon d-flex justify-content-between p-1  ">
+          <span class="fw-bold fs-4">DoctCo</span>
+          <span class="mb-3"><i class="fa fa-cc-diners-club fs-2 text-danger "></i></span>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="start">
+        <div class="str-img">
+          <img src="assets/img/owl2.jpg" alt="" class="img-fluid  img-thumbnail "/>
+        </div>
+        <p class="card-text p-1 ">Full-stack Esports tournament creator.</p>
+        <div class="str-icon d-flex justify-content-between p-1 ">
+          <span class="fw-bold fs-4">Oben Electric</span>
+          <span class="mb-3"><i class="fa fa-cc-mastercard fs-2 text-danger "></i></span>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="start">
+        <div class="str-img">
+          <img src="assets/img/owl.jpg" alt="" class="img-fluid  img-thumbnail "/>
+        </div>
+        <p  class="card-text  p-1 ">Eco-friendly and low-waste female hygiene products.</p>
+        <div class="str-icon d-flex justify-content-between p-1 ">
+          <span class="fw-bold fs-4">Karnival</span>
+          <span class="mb-3"><i class="fa fa-digg fs-2 text-danger "></i></span>
+        </div>
+      </div>
+    </div>
+   
+</div>
+</section>
+
+<!-- view butoon -->
+
+<section>
+<div class="container mt-2 ">
+  <div class="row">
+      <div class="col-12">
+          <div class="views text-center ">
+              <button class="shadow ">VIEW ALL</button>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+
+<section>
+<div class="third " data-aos="zoom-in">
+<div class="container-fluid  mt-5">
+  <div class="row">
+      <div class="col-xs-12 col-md-6 col-6 col-12" data-aos="fade-out">
+          <div class="four-met text-white  ms-2 mt-4 p-2">
+            <div class="ms-2 p-3 me-2">
+             <img src="assets/img/free.jpg" class="img-fluid mb-3" >
+            </div>
+          </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-6 col-12 text-white p-4" data-aos="fade-in">
+        <div class="done p-2  me-3 mt-3">
+       <h3>About-Us</h3>
+       <p>At WeFounder Circle we are looking to back the most inspiring and ambitious entrepreneurs. Every month we choose the best ideas & teams through a careful community backed selection process & seed fund around $100K-150K. We are a digital first, community based investment platform.As a platform, we will connect you to the community that will help you with all the necessary ingredients to make your startup journey smooth and successfu
+        A Digital-First, community-based investment platform, our community members are a mix of corporate executives, 
+
+Our vision is to build a global network of founders & strategic investors offering Funding, Business & Community.
+Every month we choose the best ideas & teams through a careful community backed selection process & seed fund around $100K-150K. We are a digital first, community based investment platform. 
+        
+       </p>
+        </div>
+        </div>
+  </div>
+  </div>
+  </div>
+  </section>
+
+  <!-- five -->
+ <section class="">
+  <div id="projectFacts" class="sectionClass">
+    <div class="fullWidth">
+        <div class="projectFactsWrap">
+            <div class="item wow fadeInUpBig animated" data-number="12" style="visibility: visible;">
+                <p id="number1" class="number">12</p>
+                <p>Projects done</p>
+            </div>
+            <div class="item wow fadeInUpBig animated" data-number="55" style="visibility: visible;">
+                <p id="number2" class="number">55</p>
+                <p>Happy clients</p>
+            </div>
+            <div class="item wow fadeInUpBig animated" data-number="359" style="visibility: visible;">
+                <p id="number3" class="number">359</p>
+                <p>Cups of coffee</p>
+            </div>
+            <div class="item wow fadeInUpBig animated" data-number="246" style="visibility: visible;">
+                <p id="number4" class="number">246</p>
+                <p>Photos taken</p>
+            </div>
+        </div>
+    </div>
+</div>
+ </section>
+
+
+  <!-- heading -->
+<section>
+  <div class="container mt-5 p-">
+    <div class="row">
+        <div class="col-12">
+            <div class="heading text-center ">
+                <h1 class="p-2 animate__heartBeat"><span class="text-warning ">F</span>eatured <SPAN class="text-warning">I</SPAN>nves<span class="text-warning">t</span>ors</h1>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+
+<!--  -->
+
+<section class="mt-5 p-2">
+  <div class="owl-carousel owl-theme">
+    <div class="item">
+      <div class="start">
+      <div class="rud-img p-1  ">
+        <img  src = "assets/img/ro5.jpg" class="img-fluid  " />
+      </div>
+      <div class="dow-img p-2 ">
+        <img src="https://wefoundercircle.com/wp-content/uploads/2022/06/founderlogo3.jpg" class="img-fluid "/>
+      </div>
+      <p class="text-center fw-bold">Co-Founder</p>
+     
+      </div>
+    </div>
+    <div class="item">
+      <div class="start">
+        <div class="rud-img p-1  ">
+          <img  src = "assets/img/ro4.jpg" class="img-fluid  " />
+        </div>
+        <div class="dow-img p-2">
+          <img src="https://wefoundercircle.com/wp-content/uploads/2022/06/founderlogo3.jpg" class="img-fluid "/>
+        </div>
+        <p class="text-center fw-bold">Co-Founder</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="start">
+        <div class="rud-img p-1  ">
+          <img  src = "assets/img/ro3.jpg" class="img-fluid  " />
+        </div>
+        <div class="dow-img p-2 ">
+          <img src="https://wefoundercircle.com/wp-content/uploads/2022/06/founderlogo3.jpg" class="img-fluid "/>
+        </div>
+        <p class="text-center fw-bold">Co-Founder</p>
+       
+      </div>
+    </div>
+    <div class="item">
+      <div class="start">
+        <div class="rud-img p-1  ">
+          <img  src = "assets/img/ro2.jpg" class="img-fluid  " />
+        </div>
+        <div class="dow-img p-2 ">
+          <img src="https://wefoundercircle.com/wp-content/uploads/2022/06/founderlogo3.jpg" class="img-fluid "/>
+        </div>
+        <p class="text-center fw-bold">Co-Founder</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="start">
+        <div class="rud-img p-1  ">
+          <img  src = "assets/img/r1.jpg" class="img-fluid  " />
+        </div>
+        <div class="dow-img p-2 ">
+          <img src="https://wefoundercircle.com/wp-content/uploads/2022/06/founderlogo3.jpg" class="img-fluid "/>
+        </div>
+        <p class="text-center fw-bold">Co-Founder</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="start">
+        <div class="rud-img p-1  ">
+          <img  src = "assets/img/ro5.jpg" class="img-fluid  " />
+        </div>
+        <div class="dow-img p-2 ">
+          <img src="https://wefoundercircle.com/wp-content/uploads/2022/06/founderlogo3.jpg" class="img-fluid "/>
+        </div>
+        <p class="text-center fw-bold">Co-Founder</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="start">
+        <div class="rud-img p-1">
+          <img  src = "assets/img/ro4.jpg" class="img-fluid  " />
+        </div>
+        <div class="dow-img p-2 ">
+          <img src="https://wefoundercircle.com/wp-content/uploads/2022/06/founderlogo3.jpg" class="img-fluid "/>
+        </div>
+        <p class="text-center fw-bold">Co-Founder</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="start">
+        <div class="rud-img p-1  ">
+          <img  src = "assets/img/ro3.jpg" class="img-fluid  " />
+        </div>
+        <div class="dow-img p-2 ">
+          <img src="https://wefoundercircle.com/wp-content/uploads/2022/06/founderlogo3.jpg" class="img-fluid "/>
+        </div>
+        <p class="text-center fw-bold">Co-Founder</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="start">
+        <div class="rud-img p-1  ">
+          <img  src = "assets/img/ro2.jpg" class="img-fluid  " />
+        </div>
+        <div class="dow-img p-2 ">
+          <img src="https://wefoundercircle.com/wp-content/uploads/2022/06/founderlogo3.jpg" class="img-fluid "/>
+        </div>
+        <p class="text-center fw-bold">Co-Founder</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="start">
+        <div class="rud-img p-1  ">
+          <img  src = "assets/img/r1.jpg" class="img-fluid  " />
+        </div>
+        <div class="dow-img p-2 ">
+          <img src="https://wefoundercircle.com/wp-content/uploads/2022/06/founderlogo3.jpg" class="img-fluid "/>
+        </div>
+        <p class="text-center fw-bold">Co-Founder</p>
+      </div>
+    </div>
+   
+</div>
+</section>
+
+
+<!-- heading -->
+<section>
+<div class="container-fluid   mt-5 p-4  mb-3 ddp">
+  <div class="row">
+      <div class="col-12">
+          <div class="lomet text-center ">
+              <h2 class="fs-2"> An Active
+                Ecosystem of
+              </h2><span><h1 class=""><span class="text-warning">O</span>ur <span class="text-warning">P</span>artners</h1></span>
+              <p>Business Builders Sharing Tools And Strategies With Entrepreneurs For Business Growth</p>
+          </div>
+      </div>
+  </div>
+  </div>
+</section>
+
+<!--  -->
+  
+  <section class="mt-5 p-4">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <div class="start">
+          <div class="cirl">
+            <img src="assets/img/par1.jpg" alt="" class="img-fluid "/>
+          </div>
+        </div>
+   
+      </div>
+      <div class="item">
+        <div class="start">
+          <div class="cirl">
+            <img src="assets/img/par2.jpg" alt="" class="img-fluid "/>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="start">
+          <div class="cirl">
+            <img src="assets/img/par3.jpg" alt="" class="img-fluid "/>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="start">
+          <div class="cirl">
+            <img src="assets/img/par4.jpg" alt="" class="img-fluid "/>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="start">
+          <div class="cirl">
+            <img src="assets/img/par5.jpg" alt="" class="img-fluid "/>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="start">
+          <div class="cirl">
+            <img src="assets/img/par1.jpg" alt="" class="img-fluid "/>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="start">
+          <div class="cirl">
+            <img src="assets/img/par2.jpg" alt="" class="img-fluid "/>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="start">
+          <div class="cirl">
+            <img src="assets/img/par3.jpg" alt="" class="img-fluid "/>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="start">
+          <div class="cirl">
+            <img src="assets/img/par4.jpg" alt="" class="img-fluid "/>
+          </div>
+        </div>
+      </div>
+     
+  </div>
+  </section>
+<!--  -->
+<section>
+<div class="eight mt-4 p-4" data-aos="flip-up">
+  <div class="container-fluid ">
+    <div class="row">
+      
+      
+      <div class="col-xs-12 col-md-6 col-lg-6 col-12 shadow p-4 mt-2 form-bg">
+        <form class="row g-3">
+          <div class="col-md-6 text-white">
+            <label for="inputEmail4" class="form-label">Name</label>
+            <input type="text" class="form-control" id="inputName" placeholder = "Name">
+          </div>
+          <div class="col-md-6 text-white">
+            <label for="inputPassword4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder = "Email">
+          </div>
+          <div class="col-md-6 text-white">
+            <label for="inputEmail4" class="form-label">Phone</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Phone">
+          </div>
+          <div class="col-md-6 text-white ">
+            <label for="inputEmail4" class="form-label">Message</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder = "I would like to discus">
+          </div>
+          
+          <div class="col-12 form-button">
+            <button type="submit">SEND REQUEST</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-6 col-12 mt-3 ms- p-4 text-white ">
+        <h1 class="fs-1 fw-bold ms-3 "><span class="text-primary ">Get In</span> Touch With Us</h1>
+        <p class="text-muted ms-3">We'd like to hear from you!</p>
+        <p class="ms-3">Let us know what <span class="text-warning">you would like </span> to chat about below.</p>
+        <p class="ms-3">Founder Circle plans to invest in startups raising pre-seed, seed, and Series A rounds.We Founder Circle (WFC), an early-stage startup investment platform, launched two funds…8 April 2022
+         </p>
+         </div>
+    </div>
+  </div>
+</section>  
+ 
+
+<!-- hrading -->
+
+<section>
+<div class="container mt-5 p-">
+  <div class="row">
+      <div class="col-12">
+          <div class="heading text-center ">
+              <h1 class="p-2 animate__heartBeat"><span class="text-warning ">W</span>FC in <span class="text-warning">N</span>ew<span class="text-warning">s</span></h1>
+          </div>
+      </div>
+  </div>
+  </div>
+</section>
+<!--  -->
+<section class="mt-3 p-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-2 " data-aos="zoom-in">
+        <div class="dicode">
+          <img src="assets/img/down3.jpg"  class="img-fluid img-thumbnail "/>
+       
+        <div class="last-de text-center p-2  ">
+          <span class="fw-bold  text-center ">We Founder Circle launches two angel funds</span><br>
+          <span class="text-muted text-center">8 April 2022</span>
+          <p class="text-">The average ticket size would range between Rs 3 crore and Rs 4 crore. We Founder Circle plans to invest in startups raising pre-seed, seed, and Series A rounds.We Founder Circle (WFC), an early-stage startup investment platform, launched two funds…</p>
+         </div>
+         </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-2 " data-aos="zoom-in">
+        <div class="dicode">
+          <img src="assets/img/down2.jpg"  class="img-fluid img-thumbnail "/>
+       
+        <div class="last-de text-center p-2 ">
+          <span class="fw-bold  text-center ">We Founder Circle launches two angel funds</span><br>
+          <span class="text-muted text-center">8 April 2022</span>
+          <p class="text-">The average ticket size would range between Rs 3 crore and Rs 4 crore. We Founder Circle plans to invest in startups raising pre-seed, seed, and Series A rounds.We Founder Circle (WFC), an early-stage startup investment platform, launched two funds…</p>
+         </div>
+         </div>
+         
+         
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-2 " data-aos="zoom-in">
+        <div class="dicode">
+         <img src="assets/img/down.jpg"  class="img-fluid img-thumbnail "/>
+         <div class="last-de text-center p-2 ">
+          <span class="fw-bold  text-center ">We Founder Circle launches two angel funds</span><br>
+          <span class="text-muted text-center">8 April 2022</span>
+          <p class="text-">The average ticket size would range between Rs 3 crore and Rs 4 crore. We Founder Circle plans to invest in startups raising pre-seed, seed, and Series A rounds.We Founder Circle (WFC), an early-stage startup investment platform, launched two funds…</p>
+         </div>
+        </div>
+      </div>
+        
+    </div>
+  </div>
+</section>
+
+  <!-- button -->
+<section>
+  <div class="container mt-5 mb-5  ">
+    <div class="row">
+        <div class="col-12">
+            <div class="views text-center">
+                <button >VIEW ALL</button>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+<!--  -->
+
+<section style="background-color: black" data-aos="zoom-in">
+  <div class="container p-3">
+    <div class="row align-items-center">
+      <div class="col-lg-6 p-3">
+        <div class=" text-white p-5 p-lg-6 rounded-3">
+          <h4 class="text-white fs-1 fs-lg-2 mb-1"><span class=" text-warning">Sign up</span> for email alerts</h4>
+          <p class="text-white">Stay current with our latest insights</p>
+          <form class="mt-4 ">
+            <div class="row align-items-center">
+              <div class="col-md-7 pe-md-0">
+                <div class="input-group"><input class="form-control" type="email" placeholder="Enter Email Here" /></div>
+              </div>
+              <div class="col-md-5 mt-3 mt-md-0">
+                <div class="d-grid"><button class="btn btn-warning  p-2" type="submit"><span class="text-white fw-semi-bold">Submit</span></button></div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-6 mt-4 mt-lg-0">
+        <div class="row">
+          <div class="col-6 col-lg-4 text-white ms-lg-auto mt-5">
+            <ul class="list-unstyle">
+              <li class="mb-3"><a class="text-white text-decoration-none " href="#">Contact Us</a></li>
+              <li class="mb-3"><a class="text-white text-decoration-none " href="#!">FAQ</a></li>
+              <li class="mb-3"><a class="text-white text-decoration-none " href="#!">Privacy Policy</a></li>
+              <li class="mb-3"><a class="text-white text-decoration-none " href="#!">Terms of Use</a></li>
+              <li class="mb-3"><a class="text-white text-decoration-none " href="#!">Global Office</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-5 ms-sm-auto mt-3">
+            <ul class="list-unstyled">
+              <li class="mb-3"><a class="text-decoration-none d-flex align-items-center text-white" href="#!"> <span class="brand-icon me-3"><span class="fab fa-linkedin-in text-warning "></span></span>
+                  <h6 class="fs-0 text-white mb-0 d-inline-block">Linkedin</h6>
+                </a></li>
+              <li class="mb-3"><a class="text-decoration-none d-flex align-items-center text-white" href="#!"> <span class="brand-icon me-3 text-warning "><span class="fab fa-twitter"></span></span>
+                  <h6 class="fs-0 text-white mb-0 d-inline-block">Twitter</h6>
+                </a></li>
+              <li class="mb-3"><a class="text-decoration-none d-flex align-items-center text-white" href="#!"> <span class="brand-icon me-3 text-warning "><span class="fab fa-facebook-f"></span></span>
+                  <h6 class="fs-0 text-white mb-0 d-inline-block">Facebook</h6>
+                </a></li>
+              <li class="mb-3"><a class="text-decoration-none d-flex align-items-center text-white" href="#!"> <span class="brand-icon me-3 text-warning "><span class="fab fa-google-plus-g"></span></span>
+                  <h6 class="fs-0 text-white mb-0 d-inline-block">Google+</h6>
+                </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- end of .container-->
+</section>
+
+<section class="last bg-dark p-3">
+ <div class="container">
+  <div class="row">
+    <div class="col-12 text-center stiment">
+      <span class="ms-3"><i class="fa fa-instagram  fs-3"></i></span>
+     <span class="ms-3"><i class="fa fa-twitter  fs-3 "></i></span>
+     <span class="ms-3"><i class="fa fa-telegram fs-5  fs-3"></i></span>
+     <span class="ms-3"><i class="fa fa-youtube fs-5  fs-3"></i></span>
+     
+    </div>
+  </div>
+ </div>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="index.js"></script>
+<script>
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:1500,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+AOS.init();
+</script>
+</body>
+</html>
+    <script>
+$.fn.jQuerySimpleCounter = function( options ) {
+    var settings = $.extend({
+        start:  0,
+        end:    100,
+        easing: 'swing',
+        duration: 400,
+        complete: ''
+    }, options );
+
+    var thisElement = $(this);
+
+    $({count: settings.start}).animate({count: settings.end}, {
+        duration: settings.duration,
+        easing: settings.easing,
+        step: function() {
+            var mathCount = Math.ceil(this.count);
+            thisElement.text(mathCount);
+        },
+        complete: settings.complete
+    });
+};
+
+
+$('#number1').jQuerySimpleCounter({end: 13014,duration: 3000});
+$('#number2').jQuerySimpleCounter({end: 59,duration: 3000});
+$('#number3').jQuerySimpleCounter({end: 50,duration: 2000});
+$('#number4').jQuerySimpleCounter({end: 5000,duration: 2500});
+
+
+
+  /* AUTHOR LINK */
+ $('.about-me-img').hover(function(){
+        $('.authorWindowWrapper').stop().fadeIn('fast').find('p').addClass('trans');
+    }, function(){
+        $('.authorWindowWrapper').stop().fadeOut('fast').find('p').removeClass('trans');
+    });
+
+    </script>
+</body>
+</html>
