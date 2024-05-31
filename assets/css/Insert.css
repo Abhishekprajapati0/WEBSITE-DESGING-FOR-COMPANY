@@ -1,0 +1,44 @@
+.choose-us-img{
+    margin-left: 100px;
+}
+.losta{
+    background-image: url(..img/forest.jpg);
+}
+.video{
+    width: 400px;
+    position: relative;
+}
+
+.buy-now-btn
+{
+    display: none;
+} 
+.switch-box{
+    display: none;
+}
+.video>h1{
+    position: absolute;
+    top: 0;
+    color: white;
+  font-size: 50px;
+    white-space: nowrap;
+    left: 27%;
+    font-weight: 900;
+   top: 50%;
+   letter-spacing: 19px;
+}
+@media(max-width:568px){
+ .video{
+    display: none;
+ }
+ html,body{
+    overflow-x: hidden;
+ }
+ .buy-now-btn
+{
+    display: none;
+} 
+.switch-box{
+    display: none;
+}
+}
